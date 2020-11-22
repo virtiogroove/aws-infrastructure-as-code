@@ -1,0 +1,1 @@
+cfn-lint.exe .\vpc-with-error.yaml
