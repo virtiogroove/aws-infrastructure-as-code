@@ -1,0 +1,14 @@
+wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip
+unzip terraform_0.13.5_linux_amd64.zip 
+mkdir terraform-projects
+cp terraform terraform-projects/
+cd terraform-projects/
+mkdir vpc
+cd vpc
+touch vpc.tf
+../terraform init
+../terraform validate
+../terraform plan
+../terraform apply
+../terraform show
+../terraform destroy
